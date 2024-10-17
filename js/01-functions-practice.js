@@ -15,5 +15,7 @@ let percent = (a/b*100).toFixed(2)
     console.log(`${a} out of ${b} is ${percent} percent`)
 }
 //STEP 4
-
-//STEP 5
+function findModulus(num1, num2) {
+    let modulus = num2 % num1
+    console.log(`${modulus} is the remainder of ${num2} divided by ${num1}`)
+}
