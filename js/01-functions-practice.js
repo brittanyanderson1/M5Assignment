@@ -10,7 +10,10 @@ function squareNumber(num) {
     console.log(`${square} is ${num} squared`) 
 }
 //STEP 3
-
+function percentOf(a, b) {
+let percent = (a/b*100).toFixed(2)
+    console.log(`${a} out of ${b} is ${percent} percent`)
+}
 //STEP 4
 
 //STEP 5
