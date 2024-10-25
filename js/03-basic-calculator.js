@@ -41,6 +41,7 @@ if (isNaN(x)) {
         let result = calculate(x, y, operator)
         if (result !== null) {
             alert(`The  result  of  ${x}  ${operator}  ${y} is  ${result}`)
+//RESULT WILL ALSO BE LOGGED TO THE CONSOLE FOR VALIDATION
             console.log(result)
         }
     }
